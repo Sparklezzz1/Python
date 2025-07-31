@@ -14,12 +14,12 @@ class MyClass:
         return sum(self.numbers) / len(self.numbers)
 
 
-if __name__ == "__main__":
-    test_list = [10, "hello", 3.14, None, 42, "world", 7.5]
+
+test_list = [0, "hello", 23.4, None, 42, "world", 123.5]
     
-    processor = MyClass(test_list)
+processor = MyClass(test_list)
    
-    processor.display_list()  
+processor.display_list()  
     
-    average = processor.calculate_average()
-    print(f"Среднее значение: {average:.2f}")  
+average = processor.calculate_average()
+print(f"Среднее значение: {average:.2f}")  

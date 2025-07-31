@@ -34,11 +34,11 @@ class MyClass:
         return f"MyClass({', '.join(fields)})"
 
 
-my_object = MyClass("Hello", "World")
+my_object = MyClass("ASD", "dSA")
 print(my_object)
-my_object = MyClass(10, 20)
+my_object = MyClass(32, 24)
 print(my_object)
-my_object = MyClass("Age: ", 25)
+my_object = MyClass("фыв ", "asd")
 print(my_object)  
-my_object = MyClass(100, " dollars")  
+my_object = MyClass(100, " ASD")  
 print(my_object)      
